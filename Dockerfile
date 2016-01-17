@@ -1,4 +1,6 @@
-FROM jeanblanchard/java:8
+FROM 1science/java:oracle-jre-8
+
+MAINTAINER Alexander Dvorkovyy
 
 ENV NEXUS_DATA /nexus-data
 
